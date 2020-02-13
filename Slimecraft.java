@@ -11,9 +11,9 @@ import javax.swing.JFrame;
 
 /**
  *
- * @author jword
+ * @author 629387
  */
-public class Slimecraft extends JFrame  {
+public class Slimecraft extends JFrame {
 
     /**
      * @param args the command line arguments
@@ -26,16 +26,16 @@ public class Slimecraft extends JFrame  {
         j.setSize(800, 600);
         j.setVisible(true);
         j.setLocationRelativeTo(null);
-        j.addKeyListener(new KeyAdapter() {
-            @Override
-            public void keyPressed(KeyEvent e) {
-                c.keyPressed(e);
-            }
-            @Override
-            public void keyReleased(KeyEvent e) {
-                c.keyReleased(e);
-            }
-        });
-    }
+       // j.addKeyListener(new KeyAdapter() {
+          //  @Override
+          //  public void keyPressed(KeyEvent e) {
+          //      c.keyPressed(e);
+          //  }
+          //  @Override
+          //  public void keyReleased(KeyEvent e) {
+         //       c.keyReleased(e);
+         //   }
+       // });    }
     
+}
 }
